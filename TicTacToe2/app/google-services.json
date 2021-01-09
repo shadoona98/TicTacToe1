@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "674598386679",
+    "firebase_url": "https://playernames-default-rtdb.firebaseio.com",
+    "project_id": "playernames",
+    "storage_bucket": "playernames.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674598386679:android:e46300812e1b66c3988cf2",
+        "android_client_info": {
+          "package_name": "com.example.tictactoe2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674598386679-17fdr67n9v0g3bhqsreul5h60av0oeir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK_E1MwCRbhIsToij2LHuSANw3e9lKvuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674598386679-17fdr67n9v0g3bhqsreul5h60av0oeir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

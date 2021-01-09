@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4D0FB"
+    tools:context=".Game">
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/rounded_textview"
+        android:elevation="4dp"
+        android:paddingStart="7dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="7dp"
+        android:text="Player1"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@+id/p1"
+        android:background="@drawable/rounded_textview"
+        android:elevation="4dp"
+        android:paddingStart="5dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="3dp"
+        android:text="Player2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gl"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="174dp"
+        android:foregroundGravity="center">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="120dp"
+            android:elevation="4dp"
+            android:layout_height="120dp"
+            android:backgroundTint="#ffeb50"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="4dp"
+            android:backgroundTint="#ffeb50"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:backgroundTint="#ffeb50"
+            android:elevation="4dp"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:backgroundTint="#ffeb50"
+            android:elevation="4dp"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="4dp"
+            android:backgroundTint="#ffeb50"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:backgroundTint="#ffeb50"
+            android:elevation="4dp"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#ffeb50"
+            android:elevation="4dp"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="4dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#ffeb50"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="4dp"
+            android:backgroundTint="#ffeb50"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/resetb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gl"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="104dp"
+        android:background="@drawable/rounded_button"
+        android:text="Reset Game"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@drawable/xx2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/ct64" />
+
+    <TextView
+        android:id="@+id/p1score"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:background="@drawable/rounded_textview"
+        android:elevation="4dp"
+        android:paddingTop="5dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#0066aa"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/p2score"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/imageView3"
+        android:background="@drawable/rounded_textview"
+        android:elevation="4dp"
+        android:paddingTop="5dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#0066aa"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

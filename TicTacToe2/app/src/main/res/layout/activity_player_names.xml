@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA4D0FB"
+    tools:context=".PlayerNames">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/spicy_rice"
+        android:text="TIC TAC TOE"
+        android:elevation="4dp"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/player1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/black"
+        android:elevation="4dp"
+        android:ems="10"
+        android:hint="Player 2 name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/black"
+        android:elevation="4dp"
+        android:ems="10"
+        android:hint="Player 1 name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="142dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="92dp"
+        app:srcCompat="@drawable/tictactoe" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="240dp"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/xx2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="156dp"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/ct64" />
+
+    <Button
+        android:id="@+id/contbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="73dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/darkblue"
+        android:elevation="4dp"
+        android:text="continue"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
